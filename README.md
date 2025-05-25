@@ -6,4 +6,3 @@ A collection of HTML projects and exercises for learning, practice, and demonstr
 
 - Mini projects
 - Practice exercises
-- Concept-based demos (forms, tables, semantic tags, etc.)

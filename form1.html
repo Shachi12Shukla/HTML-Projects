@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form >
+     <h1>Event Registration</h1>
+        <label for="Name">Name</label> <br>
+        <input type="textfield" id="Name">
+        <br>
+        <label for="Mail">Email</label> <br>
+        <input type="email" id="Mail">
+        <br>
+        <label for="Phone No.">Phone Number</label> <br>
+        <input type="number" id="Phone No.">
+        <br>
+        <br>
+        <label for="Occ">Occupation</label> <br>
+        <select name="Occ" id="Occ">
+            <option value="Other">Other</option>
+            <option value="Eng">Engineer</option>
+            <option value="Doc">Doctor</option>
+            <option value="HR">HR</option>
+            <option value="Consultant">Consultant</option>
+        </select>
+        <br>
+        <!-- <label for="CB">Topics of Interest</label> <br>
+        <input type="checkbox" id="CB"> -->
+        <!-- INSTEAD use fieldset and legend tags  -->
+        <br>
+        <fieldset>
+            <legend>Topics of Interest</legend>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="c1" id="html"> <br>
+            <label for="css">CSS</label>
+            <input type="checkbox" name="c2" id="css"> <br>
+            <label for="js">JS</label>
+            <input type="checkbox" name="c3" id="js"> <br>
+
+        </fieldset>
+        <br>
+        <br>
+        <label for="textarea">Comments</label> <br>
+        <textarea name="textarea" id="textarea"></textarea>
+        <input type="submit" value="Register">
+   </form>
+</body>
+</html>
